@@ -2,9 +2,22 @@
 
 Upload Roblox models and places via command-line.
 
+## Installation
+
+1. [Download](http://code.google.com/p/go/downloads/list) and install Go
+2. Make sure your [GOPATH](http://golang.org/doc/code.html#GOPATH) environment
+   variable is set (i.e. `$HOME/Go`, `%USERPROFILE%\Go`)
+3. Run `go get github.com/Anaminus/rbxupload` (requires
+   [git](http://golang.org/s/gogetcmd))
+5. rbxupload will be available in `$GOPATH/bin`
+
+### Binaries
+
+None at the moment.
+
 ## Usage
 
-The following flags may be used:
+rbxupload can be run with the the following flags:
 
 * `-h, --help`
 
